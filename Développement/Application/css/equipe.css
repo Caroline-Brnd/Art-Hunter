@@ -1,0 +1,212 @@
+*{ box-sizing: border-box;}
+
+html{
+    font-family: 'Inter';
+    width: 393px;
+    height: 852px;
+    margin: 0;
+}
+
+body{
+    text-align: justify;
+}
+
+#croix{
+  position: absolute;
+width: 16.85px;
+height: 14px;
+left: 331.15px;
+top: 120px;
+z-index: 1;
+}
+
+.login-carte{
+  position: absolute;
+  width: 345px;
+  height: 633px;
+  left: 31.59px;
+  top: 97px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 36.5px;
+    box-sizing: border-box;
+    border: 1.01px solid #171717;
+}
+
+.login-carte > h2 {
+  position: absolute;
+width: 218px;
+height: 31px;
+left: 68.5px;
+top: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25.2px;
+line-height: 31px;
+color: #2A282C;
+}
+ 
+.login-form {
+
+    margin: 0;
+    display: grid;
+    gap: 14px;
+    position: absolute;
+    width: 270px;
+    height: 425px;
+    left: 69.59px;
+    top: 196px;    
+}
+
+#nomequipe {
+  position: absolute;
+width: 245px;
+height: 24px;
+left: -17px;
+top: -127px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FF9113;
+}
+
+#coequipiers {
+  position: absolute;
+  width: 245px;
+  height: 24px;
+  left: -6x;
+  top: -39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FF9113;
+}
+
+#chef {
+  position: absolute;
+  width: 245px;
+  height: 24px;
+  left: -26px;
+  top: 226px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FF9113;
+}
+
+.login-form > input {
+    padding: 0 16px;
+    width: 565px;
+    height: 92px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 15%;
+    border: 2px solid #171717;
+    box-sizing: border-box;
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #171717;
+}
+
+.login-form > .input-icone > input {
+  padding: 0 16px;
+  width: 270px;
+  height: 29px;
+  border-radius: 9px;
+  background: white;
+  margin-left: 15%;
+  border: 1px solid black;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: black;
+}
+
+.login-form > .input-icone1 > input {
+  padding: 0 16px;
+  width: 270px;
+  height: 29px;
+  border-radius: 9px;
+  background: white;
+  margin-left: 15%;
+  border: 1px solid black;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: black;
+}
+
+.login-form > .input-icone2 > input {
+  padding: 0 16px;
+  width: 270px;
+  height: 29px;
+  border-radius: 9px;
+  background: white;
+  margin-left: 15%;
+  border: 1px solid black;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: black;
+}
+
+.input-icone1{
+  margin-top: -20%;
+  margin-left: -30%;
+}
+
+.input-icone{
+  margin-top: -10%;
+  margin-left: -30%;
+}
+
+.input-icone2{
+  margin-top: 10%;
+  margin-left: -30%;
+}
+  
+#connect {
+    cursor: pointer;
+    padding: 0 16px;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: -15%;
+    margin-top: 2%;
+    width: 282.5px;
+    height: 47px;
+    background: #FF9113;
+    border-radius: 15px;
+    font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+}

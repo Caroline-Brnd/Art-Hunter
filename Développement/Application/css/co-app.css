@@ -1,0 +1,202 @@
+*{ box-sizing: border-box;}
+
+html{
+    font-family: 'Inter';
+    width: 393px;
+    height: 852px;
+    margin: 0;
+}
+
+body{
+    text-align: justify;
+}
+
+#logo{
+  position: absolute;
+  width: 251.66px;
+  height: 100.56px;
+  left: 35.88px;
+  top: 99.55px;
+z-index: 1;
+}
+
+#fantome{
+position: absolute;
+width: 128.36px;
+height: 92.48px;
+left: 223.36px;
+top: 150.09px;
+}
+
+.login-carte{
+  position: absolute;
+  width: 351.71px;
+  height: 489.17px;
+  left: 20px;
+  top: 317px;
+    background-color: white;
+    border-radius: 70px;
+}
+
+.login-carte > h2 {
+  position: absolute;
+width: 134px;
+height: 31px;
+left: 110px;
+top: 25px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 31px;
+color: #171717;
+}
+ 
+.login-form {
+
+    margin: 0;
+    display: grid;
+    gap: 16px;
+    position: absolute;
+width: 285.52px;
+height: 46.49px;
+left: -10px;
+top: 100px;
+}
+
+.login-form > input {
+    padding: 0 16px;
+    width: 565px;
+    height: 92px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 15%;
+    border: 2px solid #171717;
+    box-sizing: border-box;
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #171717;
+}
+
+.login-form > .input-icone > input {
+  padding: 0 16px;
+  width: 285.5px;
+  height: 47px;
+  border-radius: 15px;
+  background: white;
+  margin-left: 15%;
+  border: 1px solid #171717;
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #171717;
+}
+
+.input-icone{
+  margin-top: 2%;
+}
+
+#iden{
+  position: absolute;
+    color: #FF9113;
+    left: 110px;
+    top: 11px;
+    font-size: 200%;
+}
+
+#mdp{
+  position: absolute;
+    color: #FF9113;
+    left: 101px;
+    top: 79px;
+    font-size: 200%;
+}
+  
+#connect {
+    cursor: pointer;
+    padding: 0 16px;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: 15%;
+    margin-top: 12%;
+    width: 282.5px;
+    height: 47px;
+    background: #FF9113;
+    box-shadow: 6px 8px 5px rgba(23, 23, 23, 0.15);
+    border-radius: 9px;
+    font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.placement-mdp{
+    position: absolute;
+width: 131px;
+height: 15px;
+left: 122px;
+top: 134px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.6334px;
+line-height: 15px;
+text-align: center;
+
+color: #171717;
+}
+
+.placement-new{
+  
+  position: absolute;
+  width: 236px;
+  height: 15px;
+  left: 72px;
+  top: 265px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.6334px;
+  line-height: 15px;
+  text-align: center;
+  
+  color: #171717;
+}
+
+.connexion > h5{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.connexion-icon {
+  font-size: 1.2rem;
+  color: black;
+  padding: 5%;
+}
+
+.connexion {
+    position: absolute;
+    color: white;
+    padding: 125px 0;
+    top: 560px;
+    width: 254px;
+    height: 30px;
+    left: 68px;
+    text-align: center;
+}

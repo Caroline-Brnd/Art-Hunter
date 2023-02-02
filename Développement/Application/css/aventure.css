@@ -1,0 +1,201 @@
+*{ box-sizing: border-box;}
+
+html{
+    font-family: 'Inter';
+    width: 393px;
+    height: 852px;
+    margin: 0;
+}
+
+body{
+    text-align: justify;
+}
+
+.fond{
+  margin-top: 0;
+  margin-left: 0;
+  position: relative;
+width: 393px;
+height: 852px;
+
+background: #FFFFFF;
+}
+#logo{
+  position: absolute;
+  width: 345px;
+height: 162px;
+left: 29px;
+top: 109px;
+z-index: 1;
+}
+
+.login-carte{
+
+  position: absolute;
+width: 362px;
+height: 518px;
+left: 15px;
+top: 195px;
+
+background: #FAFAFA;
+border-radius: 35.3737px;
+}
+
+.login-carte > h2 {
+  position: absolute;
+  width: 362px;
+  height: 83px;
+  left: 3px;
+  top: 46px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  
+  color: #FF1146;
+}
+
+.login-carte > h5{
+  position: absolute;
+width: 308px;
+height: 92px;
+left: 27px;
+top: 129px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #5B5760;
+
+}
+  
+#connect {
+  position: absolute;
+  width: 246px;
+  height: 33px;
+  left: 62px;
+  top: 300px;
+  
+  background: #FF1146;
+  border-radius: 15px 15px 3px 3px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#connect2 {
+  position: absolute;
+width: 246px;
+height: 33px;
+left: 62px;
+top: 335px;
+
+background: #377110;
+border-radius: 3px 3px 15px 15px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: black;
+}
+
+#connect > h3 > a {
+  text-decoration: none;
+  color: white;
+}
+
+#connect2 > h3 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.placement-new{
+  position: absolute;
+width: 245px;
+height: 17px;
+left: 62px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+text-align: center;
+
+color: #5B5760;
+}
+
+.logo-paris-musee {
+  position: absolute;
+width: 64px;
+height: 54px;
+left: 244px;
+top: 417px;
+}
+
+.logo-romantique {
+  position: absolute;
+  width: 148px;
+  height: 58px;
+  left: 50px;
+  top: 414px;
+}
+
+
+.barre-nav{
+  position: fixed;
+  width: 248px;
+height: 65px;
+left: 72px;
+top: 764px;
+
+background: white;
+box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.08);
+border-radius: 20.1896px;
+z-index: 3;
+}
+.barre-nav > ul {
+  overflow: hidden;
+  list-style: none;
+  flex-direction: row;
+  padding-left: -20%;
+}
+.barre-nav > ul > li{
+  float: left;
+padding-left: 8%;
+left: 232px;
+top: 808px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+}
+.barre-nav > ul > li > a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Art'Hunter - Equipe</title>
+        <meta charset="utf-8">
+
+        <link rel="icon" href="../img/citrouille.png">
+        <link rel="stylesheet" type="text/css" href="../css/equipe.css">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Ressource externe-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    </head>
+    <body>
+        <!--Création d'équipe-->
+        <a href="debut-aventure.html"><i id="croix" class="bi bi-x-lg"></i></a>
+        <div class="login-carte">
+            <h2><center><strong>Création d'équipe</strong></center></h2>
+            
+            <form class="login-form" action="verification.php" method="POST">
+                <h3 id="nomequipe">Nom de l'équipe</h3>
+                <div class="input-icone1">                
+                    <input type="text" name="nom" placeholder="Nom de l'équipe" required>
+                </div>
+
+                <h3 id="coequipiers">Ajouter des coéquipiers</h3>
+                <div class="input-icone">                
+                    <input type="text" name="pseudo" placeholder="Pseudo" required>
+                </div>
+                <div class="input-icone">                
+                    <input type="text" name="pseudo" placeholder="Pseudo" required>
+                </div>
+                <div class="input-icone">                
+                    <input type="text" name="pseudo" placeholder="Pseudo" required>
+                </div>
+                <div class="input-icone">                
+                    <input type="text" name="pseudo" placeholder="Pseudo" required>
+                </div>
+                <div class="input-icone">                
+                    <input type="text" name="pseudo" placeholder="Pseudo" required>
+                </div>
+
+                <h3 id="chef">Chef d'équipe</h3>
+                <div class="input-icone2">
+                    <input type="text" name="chef" placeholder="Pseudo" required>
+                </div>
+                <input style="margin-left: -42px;"
+             id="connect" class="btn btn-primary" name="btn_ajout" type="submit" value="Valider">
+            </form>
+        </div>
+    </body>
+</html>

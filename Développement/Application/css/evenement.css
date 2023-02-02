@@ -1,0 +1,390 @@
+*{ box-sizing: border-box;}
+
+html{
+    font-family: 'Inter';
+    width: 393px;
+    height: 852px;
+}
+
+body{
+    text-align: justify;
+}
+
+.even{
+  position: absolute;
+width: 370.53px;
+height: 307.48px;
+left: 11.03px;
+top: 57.88px;
+}
+
+#picture{
+    position: absolute;
+    width: 370px;
+    height: 307px;
+    border-radius: 36px;
+    text-align: center;
+    z-index: 0;
+}
+
+.date{
+  position: absolute;
+  width: 68.73px;
+  height: 66.66px;
+  left: 280px;
+  top: 33px;
+    background: #9F6AF3;
+    border-radius: 13px;
+    z-index: 2;
+}
+
+.date > h4{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.date > h3{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.degrade{
+    position: absolute;
+    width: 370px;
+    height: 307px;
+    background: linear-gradient(180deg, #2A282C 20.31%, rgba(42, 40, 44, 0.53125) 39.58%, rgba(42, 40, 44, 0) 63.54%);
+    border-radius: 36px;
+    z-index: 1;
+}
+
+.titre{
+  position: absolute;
+  width: 229.45px;
+  height: 22.74px;
+  left: 34.29px;
+  top: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+z-index: 2;
+}
+
+.lieu > h6{
+  position: absolute;
+  width: 153px;
+  height: 21px;
+  left: 56px;
+  top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+z-index: 2;
+
+}
+
+.lieu > i{
+    position: absolute;
+width: 25px;
+height: 33.73px;
+left: 36px;
+top: 83px;
+z-index: 2;
+color: white;
+}
+
+
+
+.jouer{
+  position: absolute;
+  width: 219.69px;
+  height: 41.62px;
+  left: 76px;
+  top: 242px;
+z-index: 2;
+background: #2A282C;
+border-radius: 52px;
+}
+
+.jouer > i{
+font-size: 60px;
+color: #FFFFFF;
+z-index: 2;
+margin-left: 450px;
+}
+
+.jouer > h3{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+z-index: 2;
+}
+
+.jouer > h3 > a {
+  text-decoration: none;
+  color: white;
+}
+
+.venir{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25.8388px;
+line-height: 31px;
+  color: white;
+  position: absolute;
+width: 372px;
+height: 53px;
+left: 10px;
+top: 384px;
+margin: 0;
+background: #2A282C;
+border-radius: 24.8053px 24.8053px 0px 0px;
+  }
+
+  #cs1{
+    position: absolute;
+width: 53.58px;
+height: 25.24px;
+left: 262px;
+top: 18px;
+size: 0.8rem;
+  }
+
+  .venir > ul{
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .venir > ul > li{
+    margin: 15px;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: -50px;
+    width: 372px;
+  }
+
+  .date1{
+    position: absolute;
+    width: 62.01px;
+    height: 62px;
+    left: 290px;
+    top: 66px;
+    background: #F5ECFF;
+    border-radius: 11.3691px;
+    z-index: 2;
+}
+
+.date1 > h4{
+  padding-top: 3px;
+    font-style: normal;
+    font-weight:600;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+.date1 > h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+.b {
+  width: 300px;
+  border: 1.55033px solid #E7E7E7;
+}
+
+.prochainement{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.8388px;
+  line-height: 31px;
+    color: white;
+    position: absolute;
+  width: 372px;
+  height: 53px;
+  left: 10px;
+  top: 702px;
+  margin: 0;
+  background: #9F6AF3;
+  border-radius: 24.8053px 24.8053px 0px 0px;
+  }
+
+  #cs2{
+    position: absolute;
+width: 53.58px;
+height: 25.24px;
+left: 262px;
+top: 18px;
+size: 0.8rem;
+  }
+
+  .prochainement> ul{
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .prochainement > ul > li{
+    margin: 15px;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: -50px;
+    width: 372px;
+  }
+
+
+  .date4{
+    position: absolute;
+    width: 62.01px;
+    height: 62px;
+    left: 290px;
+    top: 66px;
+    background: #F5ECFF;
+    border-radius: 11.3691px;
+    z-index: 2;
+}
+
+.date4 > h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.date4 > h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ab {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 436px;
+	border-top:2px solid #9E69F0;
+}
+
+.date2{
+  position: absolute;
+    width: 62.01px;
+    height: 62px;
+    left: 290px;
+    top: 140px;
+    background: #F5ECFF;
+    border-radius: 11.3691px;
+  z-index: 2;
+}
+
+.date2> h4{
+  padding-top: 3px;
+    font-style: normal;
+    font-weight:600;
+    font-size: 24px;
+    text-align: center;
+  color: black;
+}
+.date2 > h3{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+.date3{
+  position: absolute;
+    width: 62.01px;
+    height: 62px;
+    left: 290px;
+    top: 215px;
+    background: #F5ECFF;
+    border-radius: 11.3691px;
+  z-index: 2;
+}
+
+.date3> h4{
+  padding-top: 3px;
+    font-style: normal;
+    font-weight:600;
+    font-size: 24px;
+    text-align: center;
+  color: black;
+}
+.date3 > h3{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+.barre-nav{
+  position: fixed;
+  width: 248px;
+height: 65px;
+left: 72px;
+top: 764px;
+
+background: white;
+box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.08);
+border-radius: 20.1896px;
+z-index: 3;
+}
+.barre-nav > ul {
+  overflow: hidden;
+  list-style: none;
+  flex-direction: row;
+  padding-left: -20%;
+}
+.barre-nav > ul > li{
+  float: left;
+padding-left: 8%;
+left: 232px;
+top: 808px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+}
+.barre-nav > ul > li > a{
+  text-decoration: none;
+  color: black;
+}

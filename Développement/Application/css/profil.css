@@ -1,0 +1,295 @@
+*{ box-sizing: border-box;}
+
+html{
+    font-family: 'Inter';
+    width: 393px;
+    height: 852px;
+    background-color: #9A6AF5;
+}
+
+body{
+    text-align: justify;
+}
+
+p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+}
+
+#picture{
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+#retour{
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    left: 18px;
+    top: 38px;    
+  z-index: 1;
+}
+
+#avatar{
+    position: absolute;
+    width: 111.78px;
+    height: 118.35px;
+    left: 131.5px;
+    top: 49.06px;
+    z-index: 1;
+}
+
+#fantome1{
+    position: absolute;
+    left: 334.32px;
+    top: 221.03px;
+  z-index: 1;
+}
+
+#fantome2{
+    position: absolute;
+    left: 0px;
+    top: 123.41px;
+  z-index: 1;
+}
+
+
+.style1{
+    position: absolute;
+    width: 10.62px;
+    height: 196.24px;
+    left: 183.09px;
+    top: 133px;
+    
+    background: #FFFFFF;
+    z-index: 0;
+}
+
+.presentation{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 73px;
+    top: 196px;
+    background-color: #413f3f;
+    color: white;
+    border-radius: 15.1733px;
+z-index: 1;
+}
+
+.collection{
+    position: absolute;
+width: 368.71px;
+height: 478.46px;
+left: 12.64px;
+top: 328px;
+
+background: #FFFFFF;
+box-shadow: 0px 5.56354px 6.06932px rgba(0, 0, 0, 0.16);
+border-radius: 35.4044px;
+z-index: 1;
+}
+
+.collect{
+    position: absolute;
+left: 11px;
+top: -12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25.2888px;
+line-height: 31px;
+
+color: #000000;
+}
+
+.collection > ul {
+    overflow: hidden;
+    list-style: none;
+    flex-direction: row;
+  }
+
+.collection > ul >li {
+text-decoration: none;
+  color: black;
+}
+
+.ob{
+    position: absolute;
+left: 11px;
+top: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+}
+
+.mnft{
+    position: absolute;
+    width: 122.93px;
+    height: 23.79px;
+    left: 15px;
+    top: 37px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.6444px;
+    line-height: 15px;
+    
+    color: #000000;
+}
+
+.mnft2{
+    position: absolute;
+    width: 111.27px;
+    height: 12px;
+    left: 19px;
+    top: 142px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.1155px;
+    line-height: 12px;
+    
+    color: #000000;
+}
+
+.mnft3{
+    position: absolute;
+    width: 96.1px;
+    height: 12px;
+    left: 19px;
+    top: 240px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.1155px;
+    line-height: 12px;
+    
+    color: #000000;
+}
+
+.mnft4{
+    position: absolute;
+    width: 166.4px;
+    height: 12px;
+    left: 19px;
+    top: 340px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.1155px;
+    line-height: 12px;
+    
+    color: #000000;
+}
+
+.classement{
+    position: absolute;
+    width: 368.71px;
+    height: 193.5px;
+    left: 12.64px;
+    top: 831.5px;
+    
+    background: #FFFFFF;
+    border-radius: 35.4044px;
+}
+
+.classement > h2{
+    position: absolute;
+width: 210.96px;
+height: 68.77px;
+left: 17px;
+top: -15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30.3466px;
+line-height: 37px;
+
+color: #000000;
+}
+
+.classement > ul {
+    overflow: hidden;
+    list-style: none;
+    flex-direction: row;
+  }
+
+.classement > ul >li {
+text-decoration: none;
+  color: black;
+}
+
+.style2{
+    position: absolute;
+width: 16.69px;
+height: 30.85px;
+left: 325.72px;
+top: 801.71px;
+
+background: #FFFFFF;
+border: 0.505777px solid #FFFFFF;
+}
+
+.style3{
+    position: absolute;
+    width: 16.69px;
+    height: 30.85px;
+    left: 48.05px;
+    top: 801.71px;
+    
+    background: #FFFFFF;
+    border: 0.505777px solid #FFFFFF
+}
+
+.barre-nav{
+  position: fixed;
+  width: 248px;
+height: 65px;
+left: 72px;
+top: 764px;
+
+background: white;
+box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.08);
+border-radius: 20.1896px;
+z-index: 3;
+}
+.barre-nav > ul {
+  overflow: hidden;
+  list-style: none;
+  flex-direction: row;
+  padding-left: -20%;
+}
+.barre-nav > ul > li{
+  float: left;
+padding-left: 8%;
+left: 232px;
+top: 808px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+}
+.barre-nav > ul > li > a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,184 @@
+*{ box-sizing: border-box;}
+
+html{
+    font-family: 'Inter';
+    width: 393px;
+    height: 852px;
+    margin: 0;
+}
+
+body{
+    text-align: justify;
+}
+
+#logo{
+  position: absolute;
+  width: 251.66px;
+  height: 100.56px;
+  left: 35.88px;
+  top: 99.55px;
+z-index: 1;
+}
+
+#fantome{
+position: absolute;
+width: 128.36px;
+height: 92.48px;
+left: 223.36px;
+top: 150.09px;
+}
+
+#retour{
+  position: absolute;
+width: 27px;
+height: 21px;
+left: 22px;
+top: 42px;
+}
+
+.login-carte{
+  position: absolute;
+position: absolute;
+width: 346px;
+height: 521px;
+left: 24px;
+top: 274px;
+    background-color: white;
+    border-radius: 70px;
+}
+
+.login-carte > h2 {
+  position: absolute;
+width: 300px;
+height: 31px;
+left: 66px;
+top: 12px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 31px;
+color: #171717;
+}
+
+.google{
+  position: absolute;
+  width: 270px;
+  height: 34px;
+  left: 33px;
+  top: 79px;
+  
+  background: #2A282C;
+  border-radius: 57px;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.google > h3 > a{
+  text-decoration: none;
+  color: white;
+}
+
+.portefeuille{
+  position: absolute;
+  width: 270px;
+  height: 33px;
+  left: 46px;
+  top: 282px;
+  
+  background: #2A282C;
+  border-radius: 9px;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.portefeuille > h3 > a{
+  text-decoration: none;
+  color: white;
+}
+ 
+.login-form {
+
+    margin: 0;
+    display: grid;
+    gap: 5px;
+    position: absolute;
+width: 285.52px;
+height: 46.49px;
+left: -10px;
+top: 130px;
+}
+
+.login-form > input {
+    padding: 0 16px;
+    width: 565px;
+    height: 92px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 15%;
+    border: 2px solid #171717;
+    box-sizing: border-box;
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #171717;
+}
+
+.login-form > .input-icone > input {
+  padding: 0 16px;
+  width: 270px;
+  height: 29px;
+  border-radius: 9px;
+  background: white;
+  margin-left: 15%;
+  border: 1px solid black;
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #171717;
+}
+
+.input-icone{
+  margin-top: 2%;
+}
+  
+#connect {
+    cursor: pointer;
+    padding: 0 16px;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: 25%;
+    margin-top: 20%;
+    width: 216px;
+    height: 36px;
+    background: #FF9113;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+}
